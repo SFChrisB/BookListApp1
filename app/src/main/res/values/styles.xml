@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/picBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/picBackgroundColor</item>
+        <item name="colorAccent">@color/picBackgroundColor</item>
+    </style>
+
+    <!-- Styles for the activity_book_list xml -->
+
+    <style name="searchViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginSmall</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:queryHint">@string/search</item>
+    </style>
+
+    <style name="listViewStyle">
+        <item name="android:layout_below">@id/viewTwo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/marginSmall</item>
+        <item name="android:divider">@color/textTitleColor</item>
+        <item name="android:dividerHeight">@dimen/twoDivider</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="viewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/oneDivider</item>
+        <item name="android:background">@color/textTitleColor</item>
+    </style>
+
+    <style name="picText">
+        <item name="android:layout_below">@id/viewOne</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/titleTextPadding</item>
+        <item name="android:layout_margin">@dimen/titleTextPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+    </style>
+
+    <style name="imViewStyle">
+        <item name="android:layout_below">@id/viewOne</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/titleTextPadding</item>
+        <item name="android:background">@color/picBackgroundColor</item>
+    </style>
+
+    <style name="emptyTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Styles for the list_item xml -->
+
+    <style name="bookTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:paddingEnd">@dimen/textPadding</item>
+    </style>
+
+    <style name="bookAuthorStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/authorTextSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:layout_below">@+id/bookTitle</item>
+        <item name="android:textColor">@color/textSecondaryColor</item>
+        <item name="android:padding">@dimen/textPadding</item>
+    </style>
+
+    <style name="bookPubStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/publTextSize</item>
+        <item name="android:textColor">@color/textSecondaryColor</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingTop">@dimen/textPadding</item>
+        <item name="android:paddingStart">@dimen/textPadding</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="bookDescStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textColor">@color/textSecondaryColor</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/snTextPad</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+</resources>

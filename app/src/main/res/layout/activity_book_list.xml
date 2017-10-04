@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor">
+
+    <SearchView
+        android:id="@+id/searchView"
+        style="@style/searchViewStyle" />
+
+    <View
+        android:id="@+id/viewOne"
+        android:layout_below="@id/searchView"
+        style="@style/viewStyle" />
+
+    <ImageView
+        android:id="@+id/searchImBtn"
+        android:src="@mipmap/ic_launcher"
+        style="@style/imViewStyle"/>
+
+    <TextView
+        android:id="@+id/search_text"
+        android:text="@string/picText"
+        style="@style/picText"/>
+
+    <View
+        android:id="@+id/viewTwo"
+        android:layout_below="@id/searchImBtn"
+        style="@style/viewStyle" />
+
+    <ListView
+        android:id="@+id/booksList"
+        style="@style/listViewStyle" />
+
+    <TextView
+        android:id="@+id/emptyView"
+        style="@style/emptyTextStyle" />
+
+    <ImageView
+        android:id="@+id/progressSearchIm"
+        android:src="@mipmap/ic_launcher"
+        style="@style/emptyTextStyle"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="@android:style/Widget.ProgressBar.Large"/>
+
+</RelativeLayout>

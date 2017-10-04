@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textTitleColor">#FFFFFF</color>
+    <color name="textSecondaryColor">#aadce6</color>
+    <color name="backgroundBlock">#468943</color>
+    <color name="mainBackgroundColor">#5ee5da</color>
+    <color name="picBackgroundColor">#002e5b</color>
+</resources>

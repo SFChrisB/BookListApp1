@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- padding/margin sizes -->
+    <dimen name="oneDivider">1dp</dimen>
+    <dimen name="twoDivider">2dp</dimen>
+    <dimen name="textPadding">4dp</dimen>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="snTextPad">10dp</dimen>
+    <dimen name="titleTextPadding">16dp</dimen>
+
+    <!-- text sizes -->
+    <dimen name="publTextSize">8sp</dimen>
+    <dimen name="authorTextSize">12sp</dimen>
+    <dimen name="titleTextSize">18sp</dimen>
+</resources>

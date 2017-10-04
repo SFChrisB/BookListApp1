@@ -1,0 +1,13 @@
+<resources>
+    <string name="appName">BookListing App</string>
+
+    <string name="search">Input Search Request here</string>
+    <string name="nullInternet">Unable to connect to the internet.</string>
+    <string name="nullBooks">No books returned from search</string>
+    <string name="bkTitle">Book Title</string>
+    <string name="bkPubl">Publisher</string>
+    <string name="bkPubD">Publication Date</string>
+    <string name="bkDesc">Description</string>
+    <string name="bkAuthors">Authors</string>
+    <string name="picText">BookList Searching App</string>
+</resources>

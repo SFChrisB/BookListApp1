@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundBlock"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bookTitle"
+        tools:text="@string/bkTitle"
+        style="@style/bookTitleStyle"/>
+
+    <TextView
+        android:id="@+id/bookAuthors"
+        tools:text="@string/bkAuthors"
+        style="@style/bookAuthorStyle"/>
+
+    <TextView
+        android:id="@+id/bookPubl"
+        android:layout_below="@+id/bookAuthors"
+        tools:text="@string/bkPubl"
+        style="@style/bookPubStyle"/>
+
+    <TextView
+        android:id="@+id/bookPubD"
+        android:layout_below="@+id/bookPubl"
+        tools:text="@string/bkPubD"
+        style="@style/bookPubStyle"/>
+
+    <TextView
+        android:id="@+id/bookDesc"
+        android:layout_below="@+id/bookPubD"
+        tools:text="@string/bkDesc"
+        style="@style/bookDescStyle"/>
+
+</RelativeLayout>
